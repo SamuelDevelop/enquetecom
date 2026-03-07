@@ -1,0 +1,37 @@
+.header{
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 100vw;
+    background-color: rgb(22, 65, 255);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headerOptions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.option {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    transition: 100ms ease-in-out all;
+}
+
+.option:hover{
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.486);
+}
+
+.logo h1{
+    font-family: "Inter", sans-serif;
+    letter-spacing: -0.2rem;
+    color: white;
+}
+
