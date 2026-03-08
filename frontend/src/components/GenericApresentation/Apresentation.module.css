@@ -25,7 +25,7 @@
 .sectionImage{
     max-width: 450px; max-height: 450px;
     border-radius: 0.2rem;
-    mask-image: linear-gradient(to bottom, black 30%, rgba(0, 0, 0, 0.397) 70%, transparent);
+    mask-image: linear-gradient(to left, black 50%, rgba(0, 0, 0, 0.253) 90%, transparent);
 }
 
 .secao p {

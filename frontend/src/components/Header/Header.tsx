@@ -10,7 +10,7 @@ function Header(){
             </div>
             
             <nav className={styles.headerOptions}>
-                <a className={styles.option} href="#"><FaUserAlt /></a>
+                <a className={styles.option} href="/login"><FaUserAlt /></a>
                 <a className={styles.option} href="#"><FaFire /></a>
             </nav>
         </header>
