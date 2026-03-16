@@ -10,6 +10,10 @@
     gap: 0.5rem;
 }
 
+.secao *{
+    flex: 1 1;
+}
+
 .titulo{
     font-family: "Inter", sans-serif;
     color: white;

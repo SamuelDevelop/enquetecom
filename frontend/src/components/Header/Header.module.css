@@ -2,8 +2,12 @@
     margin: 0;
     padding: 1rem;
     box-sizing: border-box;
-    width: 100vw;
-    background-color: rgb(22, 65, 255);
+    width: 100vw; height: 12vh;
+
+    background-image: var(--gradAzulPadrao);
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 2;
 
     display: flex;
     flex-direction: row;
