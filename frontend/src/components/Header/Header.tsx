@@ -10,8 +10,8 @@ function Header(){
             </div>
             
             <nav className={styles.headerOptions}>
-                <a className={styles.option} href="/login"><FaUserAlt /></a>
-                <a className={styles.option} href="#"><FaFire /></a>
+                <a className={styles.option} href="/createAccount"><FaUserAlt /></a>
+                <a className={styles.option} href="/trends"><FaFire /></a>
             </nav>
         </header>
     )
