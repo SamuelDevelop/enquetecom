@@ -5,7 +5,9 @@ function Home(){
     return(
         <>
             <Header/>
-            <Apresentation/>
+            <main>
+                <Apresentation/>
+            </main>
         </>
     )
 }

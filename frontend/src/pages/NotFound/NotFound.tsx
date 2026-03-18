@@ -4,10 +4,10 @@ function NotFound(){
     return (
         <>
             <Header />
-            <section className="under-header">
+            <main>
                 <h1>Ops! Página não Encontrada</h1>
                 <img src="/src/assets/pandaAstronauta.webp" width={200}></img>
-            </section>            
+            </main>                  
         </>
     )
 }

@@ -4,7 +4,9 @@ function Dashboard(){
     return(
         <>
             <Header/>
-            <h1>Olá, Usuário!</h1>
+            <main>
+                <h1>Olá, Usuário!</h1>
+            </main>
         </>
     )
 }

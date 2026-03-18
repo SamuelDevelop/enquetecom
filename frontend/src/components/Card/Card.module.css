@@ -31,3 +31,9 @@
 .Card p{
     font-family: "Google Sans Code", monospace;
 }
+
+.Card form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}

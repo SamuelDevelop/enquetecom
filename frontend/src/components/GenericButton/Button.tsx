@@ -3,11 +3,16 @@ import styles from "./Button.module.css"
 type ButtonProps = {
   children: React.ReactNode
   onClick?: () => void
+  type?: "button" | "submit" | "reset"
 }
 
-function Button({ children, onClick }: ButtonProps) {
+function Button({ children, onClick, type = "button" }: ButtonProps) {
   return (
-    <button onClick={onClick} className={styles.button}>
+    <button
+      type={type}
+      onClick={onClick}
+      className={styles.button}
+    >
       {children}
     </button>
   )

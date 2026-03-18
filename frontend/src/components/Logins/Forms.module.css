@@ -1,38 +1,25 @@
-
-.form{
+.formSection{
+    padding: 1rem 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(to bottom right, rgba(22, 65, 255, 0.726), rgba(65, 22, 255, 0.301), rgba(255, 255, 255, 0));
-    border: 1px solid rgba(255, 255, 255, 0.411);
-    border-radius: 0.5rem;
+
     gap: 1rem;
-    margin: 1rem;
-    padding: 1rem;
 }
 
-.form h1, .form h2, .form h3, .form p{
-    color: white;
-}
-
-.form h1{
-    font-family: "Inter", sans-serif;
-    letter-spacing: -0.2rem;
-    font-size: 30pt;
-}
-
-.form h2{
-    font-family: "Inter", sans-serif;
-    opacity: 0.8;
-}
-
-.form p{
+.formSection p{
     font-family: "Google Sans Code", monospace;
+    color: rgb(255, 255, 255);
 }
 
-.form input{
-    background-color: transparent;
-    border-radius: 0.5rem;
-    background-image: linear-gradient(to bottom right, rgba(22, 65, 255, 0.726), rgba(65, 22, 255, 0.301), rgba(255, 255, 255, 0));
-    border: 1px solid rgba(255, 255, 255, 0.411);
+
+.formInput{
+    background-color: rgb(255, 255, 255);
+    padding: 0.4rem;
+    border-radius: 0.8rem;
+    border: 2px solid rgb(0, 29, 156);
+    outline: none;
+
+    font-family: "Google Sans Code", monospace;
+    color: rgb(0, 29, 156);
 }

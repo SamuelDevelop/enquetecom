@@ -1,12 +1,14 @@
 import SimpleHeader from "../../components/Header/SimpleHeader";
 
-import LoginForm from "../../components/Logins/LoginForm";
+import RegistrationForm from "../../components/Logins/RegistrationForm";
 
 function Login(){
     return(
         <>
             <SimpleHeader/>
-            <LoginForm />
+            <main>
+                <RegistrationForm />
+            </main>            
         </>
     )
 }
