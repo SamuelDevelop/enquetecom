@@ -19,16 +19,12 @@ Nessa aplicação estarei utilizando:
 <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 
-<br><br>
-
-<b>Backend:</b><br>
+<b>Backend:</b>
 
 <img src="https://img.shields.io/badge/Node.js-TypeScript-339933?style=for-the-badge&logo=node.js&logoColor=white">
 <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white">
 
-<br><br>
-
-<b>Database:</b><br>
+<b>Database:</b>
 
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white">
 

@@ -1,17 +1,27 @@
-import { Router } from "express";
+import { Router } from "express"
+import  pool from "../database/conexao"
 
-const router = Router();
+const router = Router()
 
-router.get("/", (req, res)=>{
-    res.send("User List, trouxão");
-});
+router.get("/", async (req, res) => {
 
-router.get("/:id", (req, res)=>{
-    res.send("User id aí");
-});
+    const resultado = await pool.query(
+        "SELECT * FROM usuarios"
+    )
 
-router.post("/", (req, res)=>{
-    res.send("Criar Usuario pdc");
-});
+    res.json(resultado.rows)
+})
+
+router.post("/", async (req, res) => {
+
+    const { nome, email, senha } = req.body
+
+    const resultado = await pool.query(
+        "INSERT INTO usuarios (nome, email, senha) VALUES ($1,$2,$3) RETURNING *",
+        [nome, email, senha]
+    )
+
+    res.json(resultado.rows[0])
+})
 
 export default router;
