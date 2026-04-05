@@ -28,9 +28,14 @@ Nessa aplicação estarei utilizando:
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
+
 ## Das Funcionalidades
 
 - Criar e gerenciar enquetes
 - Votar em enquetes
 - Visualizar estatisticas de enquetes
 - Consulta de enquetes publicas
+
+<div align="center">
+    <p><b>SamuelDevelop</b> 2026 | Projeto Pessoal</p>
+</div>
