@@ -45,38 +45,42 @@ function RegistrationForm(){
     return (
         <section className={styles.formSection}>
             <Card>
-                <form onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit} className={styles.form}>
                     <h1>Antes Precisamos te conhecer! é Rapidinho...</h1>
-                    <h2>Dados Básicos:</h2>
-                    
-                    <input
-                        className={styles.formInput}
-                        type="text"
-                        name="nome"
-                        value={dados.nome}
-                        onChange={handleChange}
-                        placeholder="Informe seu nome..."
-                    />
-                    
-                    <input
-                        className={styles.formInput}
-                        type="text"
-                        name="email"
-                        value={dados.email}
-                        onChange={handleChange}
-                        placeholder="Digite seu email..."
-                    />
 
-                    <h2>Crie Uma Senha:</h2>
-                    <input
-                        className={styles.formInput}
-                        type="text"
-                        name="senha"
-                        value={dados.senha}
-                        onChange={handleChange}
-                        placeholder="Crie uma senha forte..."
-                    />
-
+                    <div className={styles.fields}>
+                        <h2>Dados Básicos:</h2>
+                        <input
+                            className={styles.formInput}
+                            type="text"
+                            name="nome"
+                            value={dados.nome}
+                            onChange={handleChange}
+                            placeholder="Informe seu nome..."
+                        />
+                        
+                        <input
+                            className={styles.formInput}
+                            type="text"
+                            name="email"
+                            value={dados.email}
+                            onChange={handleChange}
+                            placeholder="Digite seu email..."
+                        />
+                    </div>
+                    
+                    <div className={styles.fields}>
+                         <h2>Crie Uma Senha:</h2>
+                        <input
+                            className={styles.formInput}
+                            type="text"
+                            name="senha"
+                            value={dados.senha}
+                            onChange={handleChange}
+                            placeholder="Crie uma senha forte..."
+                        />
+                    </div>
+                   
                     {formValido && (
                         <Button type="submit">Tudo Pronto</Button>
                     ) || (

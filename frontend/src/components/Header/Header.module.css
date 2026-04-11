@@ -22,6 +22,11 @@
     gap: 0.5rem;
 }
 
+.option p{
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
 .option {
     font-size: 24px;
     color: rgb(255, 255, 255);
@@ -29,13 +34,7 @@
 }
 
 .option:hover{
-    font-size: 28px;
     color: rgba(255, 255, 255, 0.486);
 }
 
-.logo h1{
-    font-family: "Inter", sans-serif;
-    letter-spacing: -0.2rem;
-    color: white;
-}
 

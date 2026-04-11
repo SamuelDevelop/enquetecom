@@ -7,19 +7,30 @@
     gap: 1rem;
 }
 
+
 .formSection p{
     font-family: "Google Sans Code", monospace;
     color: rgb(255, 255, 255);
 }
 
+.form {
+    gap: 2rem;
+}
+
+.fields{
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+    width: 100%;
+}
 
 .formInput{
-    background-color: rgb(255, 255, 255);
+    color: white;
+    background-color: transparent;
     padding: 0.4rem;
     border-radius: 0.8rem;
-    border: 2px solid rgb(0, 29, 156);
+    border: 1px solid rgb(255, 255, 255);
     outline: none;
 
     font-family: "Google Sans Code", monospace;
-    color: rgb(0, 29, 156);
 }

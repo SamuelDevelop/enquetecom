@@ -4,15 +4,22 @@
     justify-content: center;
     align-items: flex-start;
     padding: 1rem;
-    gap: 0.2rem;
+    gap: 1.5rem;
     margin: 0.2rem;
 
-    background-image: var(--gradAzulPadrao);
+    flex: 1;
+
+    box-sizing: border-box;
+    background-image: var(--gradVineColor);
     border-radius: 0.5rem;
 }
 
 .Card button{
     border: rgba(255, 255, 255, 0.329) 1px solid;
+}
+
+.Card button:hover{
+    background-image: var(--gradAzulDark);
 }
 
 .Card *{
@@ -35,5 +42,6 @@
 .Card form{
     display: flex;
     flex-direction: column;
-    gap: 0.2rem;
+
+    padding: 2rem 2.5rem;
 }

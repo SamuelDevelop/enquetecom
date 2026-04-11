@@ -1,6 +1,7 @@
 :root{
-    --gradAzulPadrao: linear-gradient(to bottom right, rgb(42, 116, 255), rgb(22, 65, 255), rgb(0, 29, 156));
-    --gradAzulDark: linear-gradient(to bottom right, rgba(22, 65, 255, 0.055), rgb(0, 15, 83));
+    --gradAzulPadrao: linear-gradient(to bottom right, rgb(22, 65, 255), rgb(0, 29, 156));
+    --gradAzulDark: linear-gradient(to bottom right, rgb(13, 14, 20), rgb(4, 5, 14));
+    --gradVineColor: linear-gradient(to bottom right, rgb(57, 47, 146), rgb(38, 11, 63));
 }
 
 * {
@@ -13,7 +14,20 @@ html, body{
 
 body{
     width: 100vw; height: 100vh;
-    background-image: linear-gradient(rgb(14, 17, 29), rgb(0, 0, 0));
+    background-image: var(--gradAzulDark);
+}
+
+h1{
+    font-family: "Inter", sans-serif;
+    letter-spacing: -0.2rem;
+    color: white;
+    font-size: 2.3rem;
+}
+
+
+p, a {
+    text-decoration: none;
+    font-family: "Google Sans Code", monospace;
 }
 
 main{

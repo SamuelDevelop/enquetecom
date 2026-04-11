@@ -7,17 +7,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 0.5rem;
-}
-
-.secao *{
-    flex: 1 1;
-}
-
-.titulo{
-    font-family: "Inter", sans-serif;
-    color: white;
-    font-size: 30pt;
+    gap: 1rem;
 }
 
 .text{
@@ -29,10 +19,15 @@
 .sectionImage{
     width: 450px; height: 320px;
     border-radius: 0.2rem;
-    mask-image: linear-gradient(to left, black 50%, rgba(0, 0, 0, 0.253) 90%, transparent);
+    opacity: 0.6;
 }
 
 .secao p {
     font-family: "Google Sans Code", monospace;
     color: white;
+}
+
+.creditos{
+    align-items: center;
+    justify-content: center;
 }
