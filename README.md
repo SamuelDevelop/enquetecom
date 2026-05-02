@@ -2,7 +2,7 @@
 
 <img src="acessorios/tela_inicial.jpg">
 
-EnqueteCom ou Enquete.com, chame do que preferir é um projeto Web que visa possibilitar a criação de enquetes dinâmicas e checagem de votos.
+O Enquete.com é um projeto Web que visa possibilitar a criação de enquetes dinâmicas e checagem de votos.
 
 ## Do Propósito
 
@@ -12,21 +12,12 @@ EnqueteCom ou Enquete.com, chame do que preferir é um projeto Web que visa poss
 
 Nessa aplicação estarei utilizando:
 
-**Frontend:**
 
-![ts](https://img.shields.io/badge/TypeScript-React_(Vite)-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![html](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![css](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![js](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-**Backend:**
-
-![Node.js](https://img.shields.io/badge/Node.js-TypeScript-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-
-**Database:**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+| Categoria  | Tecnologias |
+|-----------|------------|
+| Frontend  | ![ts](https://img.shields.io/badge/TypeScript-React_(Vite)-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![html](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![css](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![js](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) |
+| Backend   | ![Node.js](https://img.shields.io/badge/Node.js-TypeScript-339933?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white) |
+| Database  | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) |
 
 
 ## Das Funcionalidades
