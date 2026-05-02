@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styles from "./Header.module.css"
-import { FaUserAlt } from "react-icons/fa";
+import { FaUserAlt, FaUserAltSlash } from "react-icons/fa";
 import { FaFire } from "react-icons/fa";
 
 function Header(){
@@ -22,7 +22,7 @@ function Header(){
                 :
                 <nav className={styles.headerOptions}>
                     <a className={styles.option} href="/trends"><FaFire /></a>
-                    <a className={styles.option} href="/createAccount"><p>entrar</p></a>
+                    <a className={styles.option} href="/createAccount"><FaUserAltSlash /></a>
                 </nav>            
             }
             

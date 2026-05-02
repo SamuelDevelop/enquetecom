@@ -1,6 +1,6 @@
 :root{
     --gradAzulPadrao: linear-gradient(to bottom right, rgb(22, 65, 255), rgb(0, 29, 156));
-    --gradAzulDark: linear-gradient(to bottom right, rgb(13, 14, 20), rgb(4, 5, 14));
+    --gradAzulDark: linear-gradient(to bottom right, rgb(11, 12, 15), rgb(1, 2, 5));
     --gradVineColor: linear-gradient(to bottom right, rgb(57, 47, 146), rgb(38, 11, 63));
 }
 
@@ -28,6 +28,12 @@ h1{
 p, a {
     text-decoration: none;
     font-family: "Google Sans Code", monospace;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main{
